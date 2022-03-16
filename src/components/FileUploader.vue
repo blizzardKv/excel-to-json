@@ -31,6 +31,7 @@ export default {
         cfb.Strings.forEach((string) => {
           comboString += `${string.t} `;
         });
+
         this.exportedStrings = comboString;
       };
 
